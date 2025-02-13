@@ -2,7 +2,7 @@ trigger:
   - main
 
 pool:
-  name: Self-Hosted
+  name: Agent1
 steps:
   # Install wsl and ubunutu
   - task: PowerShell@2
